@@ -1,0 +1,51 @@
+table{
+  border-collapse: collapse;
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  table-layout: auto;
+  width: 50%!important;
+}
+
+table td{
+  border: solid #000501 2px;
+  width: 20%;
+}
+
+table caption{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.clignote{
+  animation: Clignote 1s infinite;
+}
+@keyframes Clignote{
+  0%{opacity: 1;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+table th{
+  border: solid #000501 2px;
+  background-color: #73ab84;
+}
+
+table tr:nth-child(2n){
+  background-color: #99d19c;
+}
+table tr:nth-child(2n):hover{
+  background-color: #ade1e5;
+}
+
+table tr:nth-child(2n+1){
+  background-color: #79c7c5;
+}
+table tr:nth-child(2n+1):hover{
+  background-color: #ade1e5;
+}
+table img{
+  width: 150px;
+  height: 150px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Agence de voyage</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/general.css">
+
+</head>
+<body>
+<h1><a href="accueil.html">Agence de Voyage JD&Co</a><img id="entete" src="ressources/voyage.jpg" alt=""></h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="accueil.html">Accueil</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Menu
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Connexion</a>
+                    <a class="dropdown-item" href="#">Recherche</a>
+                    <a class="dropdown-item" href="#">Réservation</a>
+                    <a class="dropdown-item" href="#">Promotion</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Information</a>
+                    <a class="dropdown-item" href="#">Location</a>
+                    <a class="dropdown-item" href="#">Assistance</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="destinations.html">Destination </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="audio.html">Voyage virtuel audio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="video.html">Voyage virtuel video</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<hr>
+<div class="blockContenu">
+    <h3>Son d'un premier avion</h3>
+    <audio autoplay
+           controls
+           src="ressources/707.mp3">
+        Your browser does not support the
+        <code>audio</code> element.
+    </audio>
+
+    <h3>Son d'un deuxième avion</h3>
+    <audio
+            controls
+            src="ressources/airland.mp3">
+        Your browser does not support the
+        <code>audio</code> element.
+    </audio>
+</div>
+</body>
+<!-- JS -->
+<script defer src="javascript/jquery.min.js"></script>
+<script defer src="javascript/bootstrap.min.js"></script>
+<script defer src="javascript/popper.min.js"></script>
+</html>
